@@ -4,7 +4,7 @@ import pandas as pd
 
 # Configuração do User-Agent para a requisição
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    'User-Agent': "put your user agent here"
 }
 
 # Solicitar o produto ao usuário e formatar para URL
@@ -15,7 +15,7 @@ url = f'https://lista.mercadolivre.com.br/{produto}'
 dados = []
 
 # Definir configurações de filtro
-keywords = input("Digite palavras chave separadas por virgula").lower().split(',')  
+keywords = input("Digite palavras chave separadas por virgula: ").lower().split(',')  
 min_price = int(input("Digite um preço minimo: R$"))  
 max_price = int(input("Digite um preço maximo: R$"))
 
