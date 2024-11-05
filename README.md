@@ -1,14 +1,17 @@
 # web-scraping-ml
 
-This objective code is destinating to scrape datas on Mercado Livre.
-The First step scrape importants datas like  title , prices and link
-and the last step put datas on excel sheet with Title used to scrape
+This code is destinating to collect important datas on Mercado Livre.
+
+At the first  code collect important datas like title , prices and link
+and the last step will put datas on excel sheet with Title used to scrape
 data.
+
 
 This code is destination to:
 -Students.
 -Workers.
 -Busines owner.
+-LINUX/WINDOWS
 -
 
 To improve filters do you've to put some parameters, for example keywords
